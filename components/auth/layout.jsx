@@ -25,7 +25,6 @@ function Layout(props) {
             style={{
               backgroundImage: "url(https://picsum.photos/200/300)",
               backgroundSize: "cover",
-              backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
             }}
           ></div>

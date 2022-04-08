@@ -1,0 +1,14 @@
+.container {
+    width: 100vw;
+    display: flex;
+}
+
+.main_content {
+    height: 100vw;
+    width: 88vw;
+}
+
+.sidebar {
+    height: 100vw;
+    width: 12vw;
+}

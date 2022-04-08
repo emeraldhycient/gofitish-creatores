@@ -7,7 +7,7 @@ function Login() {
     <Layout title="Login Page 🚪" head="🚪 Portal to Dashboard">
       <form
         action=""
-        className="pt-5 text-center shadow shadow-xl rounded-lg p-8 bg-white"
+        className="items-center mx-auto pt-5 text-center shadow shadow-xl rounded-lg p-8 bg-white"
       >
         <input
           type="email"
@@ -29,12 +29,15 @@ function Login() {
         >
           Login
         </button>
+        <p className="text-gray-200">
+          <Link
+            href="/auth/create-account"
+            className="text-decoration-none mt-4"
+          >
+            Create Account
+          </Link>
+        </p>
       </form>
-      <p className="text-gray-200">
-        <Link href="/auth/create-account" className="text-decoration-none mt-4">
-          Signup
-        </Link>
-      </p>
     </Layout>
   );
 }
