@@ -1,54 +1,62 @@
+import Link from "next/link";
+
 import Layout from "../../components/auth/layout";
 
 function Signup() {
   return (
-    <Layout title="Register on users-reduxToolkit 🚪">
-      <form action="" className="pt-5 text-center">
+    <Layout
+      title="Create a gofitish portal account  🚪"
+      head="🚪 Begin Portal account creation"
+    >
+      <form
+        action=""
+        className="pt-5 text-center w-9/12 items-center mx-auto shadow shadow-xl rounded-lg p-8 bg-white"
+      >
         <input
           type="text"
           name=""
           id=""
           placeholder="Full Name"
-          className="border-b-[.145rem] w-10/12 h-10 mb-3 rounded focus:outline-none"
+          className="border-b-[.145rem] w-full h-10 mb-5 rounded focus:outline-none pl-2"
         />
         <input
           type="tel"
           name=""
           id=""
           placeholder="Phone"
-          className="border-b-[.145rem] w-10/12 h-10 mb-3 rounded focus:outline-none"
+          className="border-b-[.145rem] w-full h-10 mb-5 rounded focus:outline-none pl-2"
         />
         <input
           type="email"
           name=""
           id=""
           placeholder="Email"
-          className="border-b-[.145rem] w-10/12 h-10 mb-3 rounded focus:outline-none"
+          className="border-b-[.145rem] w-full h-10 mb-5 rounded focus:outline-none pl-2"
         />
         <input
           type="password"
           name=""
           id=""
           placeholder="Password"
-          className="border-b-[.145rem] w-10/12 h-10 mb-3 rounded focus:outline-none"
+          className="border-b-[.145rem] w-full h-10 mb-5 rounded focus:outline-none pl-2"
         />
         <input
           type="password"
           name=""
           id=""
           placeholder="Confirm Password"
-          className="border-b-[.145rem] w-10/12 h-10 mb-3 rounded focus:outline-none"
+          className="border-b-[.145rem] w-full h-10 mb-5 rounded focus:outline-none pl-2"
         />
         <button
           type="submit"
-          className="bg-slate-800 w-10/12 h-10 mb-3 rounded text-purple-700	"
+          className="bg-slate-800 w-full h-10 mb-5 rounded text-purple-700	"
         >
           Signup
         </button>
-        <p>
-          <a href="/login" className="text-decoration-none mt-4">
+        <p className="text-gray-200">
+          <Link href="/auth/login" className="text-decoration-none mt-4">
             Login
-          </a>
+          </Link>
         </p>
       </form>
     </Layout>
