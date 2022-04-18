@@ -53,7 +53,7 @@ function Signup() {
         >
           Signup
         </button>
-        <p className="text-gray-200">
+        <p className="text-gray-400">
           <Link href="/auth/login" className="text-decoration-none mt-4">
             Login
           </Link>

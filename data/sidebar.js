@@ -1,8 +1,8 @@
 import { atom } from "jotai";
 const sidebardata = atom([
   {
-    name: "Dashboard",
-    icon: "fa fa-home mr-1 fa-lg",
+    name: "Stats",
+    icon: "fa fa-database mr-1 fa-lg",
     link: "/emmanuel/dashboard/",
     isActive: true,
   },

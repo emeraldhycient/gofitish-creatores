@@ -21,10 +21,11 @@ function Layout(props) {
             </div>
           </div>
           <div
-            className="h-screen bg-gray-50 hidden md:block"
+            className="h-screen bg-gray-50 hidden md:block w-full"
             style={{
               backgroundImage: "url(https://picsum.photos/200/300)",
               backgroundSize: "cover",
+              backgroundPosition: "center top",
               backgroundRepeat: "no-repeat",
             }}
           ></div>

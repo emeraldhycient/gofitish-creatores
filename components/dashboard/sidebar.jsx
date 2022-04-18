@@ -26,17 +26,17 @@ function Sidebar() {
               key={index}
               className={`my-2 px-3 py-2 text-left ${
                 item.isActive && "bg-gray-500 rounded-md"
-              }`}
+              } hover:bg-gray-500 hover:text-white hover:rounded-md`}
               onClick={() => isactive(index)}
             >
               <Link
                 href={item.link}
-                className="block px-4 py-2 text-white hover:bg-gray-900"
+                className="block px-4 py-2 text-white hover:bg-gray-500 hover:text-white hover:rounded-md"
               >
                 <>
                   <i
                     className={`${item.icon} ${
-                      item.isActive ? "text-white" : "text-green-800 "
+                      item.isActive ? "text-white" : "text-purple-800 "
                     }`}
                   ></i>
                   <span

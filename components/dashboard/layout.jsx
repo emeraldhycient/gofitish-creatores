@@ -23,7 +23,7 @@ function Layout(props) {
       <div className={styles.container}>
         <div className={`${styles.main_content}  bg-black `}>
           <div>
-            <div className="h-12 bg-gray-700 w-full items-center flex">
+            <div className="h-12 bg-gray-700 w-full items-center flex sticky top-0">
               <div className="bg-black flex justify-between items-center h-8 w-56 rounded-full pl-2">
                 <div className="flex items-center">
                   <img
@@ -36,7 +36,7 @@ function Layout(props) {
                       Gofitish creators
                     </span>
                     <span className="text-gray-400">
-                      <i className="fas fa-circle text-green-500"></i>
+                      <i className="fas fa-circle text-green-600"></i>
                     </span>
                   </div>
                 </div>
@@ -45,10 +45,11 @@ function Layout(props) {
             {props.children}
           </div>
         </div>
-        <div className={`${styles.sidebar}  bg-gray-900  shadow  shadow-xl `}>
-          <h1 className="text-green-500 font-bold font-curly text-4xl text-center">
+        <div className={`${styles.sidebar}  bg-gray-900  shadow  shadow-xl`}>
+          <h1 className="text-purple-800 font-bold font-curly text-4xl text-center">
             {props.head}
           </h1>
+          <hr />
           <Sidebar />
         </div>
       </div>
