@@ -30,7 +30,7 @@ function Sidebar() {
               onClick={() => isactive(index)}
             >
               <Link
-                href={item.link}
+                href={`/emmanuel${item.link}`}
                 className="block px-4 py-2 text-white hover:bg-gray-500 hover:text-white hover:rounded-md"
               >
                 <>

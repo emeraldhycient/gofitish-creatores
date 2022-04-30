@@ -27,8 +27,8 @@ function Layout(props) {
               <div className="bg-black flex justify-between items-center h-8 w-56 rounded-full pl-2">
                 <div className="flex items-center">
                   <img
-                    src="https://picsum.photos/200/300"
-                    alt="profile"
+                    src="/images/img3.jpeg"
+                    alt="profile picture"
                     className="rounded-full w-6 h-6"
                   />
                   <div className="ml-3">

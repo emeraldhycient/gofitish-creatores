@@ -7,7 +7,7 @@ function Login() {
     <Layout title="Login Page 🚪" head="🚪 Portal to Dashboard">
       <form
         action=""
-        className="pt-5 text-center w-9/12 items-center mx-auto shadow shadow-xl rounded-lg p-8 bg-white"
+        className="pt-5 text-center md:w-9/12 items-center mx-auto shadow shadow-xl rounded-lg p-8 bg-white"
       >
         <input
           type="email"
