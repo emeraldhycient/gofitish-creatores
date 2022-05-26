@@ -3,7 +3,7 @@ import React from "react";
 function Video({ video }) {
   const { title, poster, video_url, views, channel_id } = video;
   return (
-    <div className="pb-4">
+    <div className=" mb-4 border-b-[.1rem] border-[#ffce1a] shadow-lg pt-2">
       <video
         src={video_url}
         poster={poster}
